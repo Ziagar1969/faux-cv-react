@@ -1,0 +1,72 @@
+/* Section Hero */
+
+.hero-section {
+  min-height: 80vh;
+  background-image: url('../assets/images/about2.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff; /* Blanc obligatoire sur fond sombre */
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  color: #EEEEEE;
+}
+
+/* Élément interactif (Bouton) avec votre couleur dominante */
+.hero-btn {
+  display:flex;
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 0.75rem 1.75rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.hero-btn:hover {
+  background-color: #0b5ed7; /* Un bleu légèrement plus foncé au survol */
+}
+
+/* Section À propos */
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  line-height: 1.8;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+}
+
+/* Petit soulignement décoratif en couleur dominante */
+.about-section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin-top: 0.5rem;
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+}
